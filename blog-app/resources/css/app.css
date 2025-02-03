@@ -1,3 +1,18 @@
+@import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: "Nunito", serif;
+}
+.accent{
+    color:#29A19C;
+}
+.accent-bg{
+    background-color: #29A19C;
+}
+.title{
+    font-size:20px;
+}
