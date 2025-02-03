@@ -34,7 +34,7 @@
             </x-sidebar-list>
             <x-sidebar-item class="mt-auto">Log out</x-sidebar-item>
         </div>
-        <div class="flex flex-col w-full sm:w-[80%] bg-gray-100 py-4 px-8 h-full">
+        <div class="flex flex-col w-full sm:w-[80%] bg-gray-100 py-4 px-12 h-full">
             <nav class="flex justify-between pb-8">
                 <x-button>Новая задача</x-button>
                 <div class="flex items-center">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="grid gap-4">
+            <div class="grid gap-4 h-full">
                 {{ $slot }}
             </div>
         </div>
